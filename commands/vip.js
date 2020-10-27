@@ -32,12 +32,8 @@ exports.run = (message, args) => {
     }
 }
 
-exports.conf = {
-    enabled: true,
-    guildOnly: false,
-    aliases: ["v"],
-    permLevel: 0
-};
-exports.help = {
-    name: 'vip'
+exports.config = {
+  name: "vip",
+  guildOnly: true,
+  aliases: ["v"],
 };
