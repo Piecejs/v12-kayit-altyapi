@@ -37,12 +37,8 @@ exports.run = async (message, args) => {
     }
 
 };
-exports.conf = {
-    enabled: true,
-    guildOnly: false,
-    aliases: ["k", "kadın", "bayan"],
-    permLevel: 0
-};
-exports.help = {
-    name: 'kiz'
+exports.config = {
+  name: "kız",
+  guildOnly: true,
+  aliases: ["k", "kiz"],
 };
