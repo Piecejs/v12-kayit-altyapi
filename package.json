@@ -1,7 +1,7 @@
 {
-  "name": "discord-bos-altyapi",
+  "name": "v12-kayit-altyapi",
   "version": "0.0.1",
-  "description": "DJSV12 Boş Altyapı",
+  "description": "v12-kayit-altyapi",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
@@ -11,9 +11,6 @@
   },
   "engines": {
     "node": "12.x"
-  },
-  "repository": {
-    "url": "https://github.com/itsbbq/discord-bos-altyapi/"
   },
   "license": "MIT",
   "keywords": [
