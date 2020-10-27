@@ -36,6 +36,10 @@ Oynuyor kısmını bu dosyadan değiştirebiliriz.
 Permleveller otomatiktir hangi yetkiyi yazarsanız o çıkar.
 BOT_OWNER Yazarsanız bot sahiplerine özel olur.
 
+### Altyapıyı hazırlayan yetkililer
+
+V12 Kayıt altyapısı, [Piece](https://www.discord.com/users/424544845290536970) ve [Miaf](https://www.discord.com/users/324886053884264449) kişileri tarafından oluşturulmuştur.
+
 ### İşinize yarayabilecek bazı dökümanlar =>
 https://discord.js.org/<br>
 https://discordjs.guide/
