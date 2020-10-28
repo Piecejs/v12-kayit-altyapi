@@ -25,15 +25,18 @@ fs.readdir('./commands/', (err, files) => {
 
 client.on('guildMemberAdd', async miaf => {
 
+  const serendia = config.sunucuid
+
   const piece = config.kayitKanal;
 
-  piece.send(`
-  • ${miaf} sunucumuza hoş geldin. Seninle beraber **${miaf.guild.memberCount}** kişiye ulaştık :tada: !
+  client.guilds.cache.get(serendia).channels.cache.get(piece).send(`
+  
+  • ${miaf} sunucumuza hoş geldin. Seninle beraber **${miaf.guild.memberCount}** kişiye ulaştık :tada: 
   
   • Hesabınızın kuruluş tarihi: **${moment(miaf.user.createdAt).format('DD/MM/YYYY | HH:mm:ss')}**
 
-  • Sesli odalara girerek kaydınızı yaptırabilirsiniz. ${congif.teyitci} sizinle ilgilenecektir.
-  
+  • Sesli odalara girerek kaydınızı yaptırabilirsiniz. <@&${config.teyitci}> sizinle ilgilenecektir.
+
   `)
 });
 
